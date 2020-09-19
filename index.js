@@ -1,8 +1,7 @@
-console.log('This is a readme generator.  Please answer the following questions about your readme to have it generated.');
-setTimeout(() => {
-}, 2000);
+const inquirer = require('inquirer');
 
-var inquirer = require('inquirer');
+console.log('This is a readme generator.  Please answer the following questions about your readme to have it generated.');
+
 
 inquirer
     .prompt([
@@ -33,8 +32,19 @@ inquirer
         },
         //Need to figure out options for different licensing
         {
-            type: 'input',
-            message: 'Please select an option from the list',
+            type: 'list',
+            message: 'What open source license would you like to use?',
+            choices: [
+                'Apache License 2.0',
+                'BSD 2-clause (FreeBSD License)',
+                'BSD 3-clause (Revised License)',
+                'Common Development and Distribution License',
+                'Ecplise Public Lincense 2.0',
+                'GPL (GNU General Public License)',
+                'LGPL (Lesser GNU General Public License)',
+                'MIT License',
+                'MPL (Mozilla Public License 2.0)'
+            ],
             name: 'license'
         },
         {
