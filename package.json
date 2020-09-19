@@ -1,0 +1,19 @@
+{
+  "name": "readme-generator",
+  "version": "1.0.0",
+  "description": "This app will generate a readme based on user responses from prompts",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jburz/readme-generator.git"
+  },
+  "author": "Jake Burzlaff",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jburz/readme-generator/issues"
+  },
+  "homepage": "https://github.com/jburz/readme-generator#readme"
+}
