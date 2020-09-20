@@ -1,7 +1,10 @@
 const inquirer = require('inquirer');
+const fs = require('fs');
+const gm = require('./generateMarkdown.js');
+// const generateMarkdown = require('./generateMarkdown');
 
 console.log('This is a readme generator.  Please answer the following questions about your readme to have it generated.');
-
+console.log(inquirer);
 
 inquirer
     .prompt([
@@ -17,7 +20,7 @@ inquirer
         },
         {
             type: 'input',
-            message: '',
+            message: 'What would you like for table of contents?',
             name: 'tableOfContents'
         },
         {
@@ -65,4 +68,25 @@ inquirer
     ])
     .then(function (response) {
         console.log(response);
+        writeToFile('readme.md', gm(response));
     });
+    
+// function to write README file
+function writeToFile(fileName, data) {
+    fs.writeFile(fileName, (data), function(err) {
+        if (err) {
+            throw err;
+        };
+    })
+}
+
+
+// // function to initialize program
+// function init() {
+//     const answers = gm({
+//         title: 'testing'
+//     });
+// }
+
+// // function call to initialize program
+// init();
