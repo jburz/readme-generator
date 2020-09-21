@@ -38,15 +38,15 @@ inquirer
             type: 'list',
             message: 'What open source license would you like to use?',
             choices: [
-                'Apache License 2.0',
-                'BSD 2-clause (FreeBSD License)',
-                'BSD 3-clause (Revised License)',
-                'Common Development and Distribution License',
-                'Ecplise Public Lincense 2.0',
-                'GPL (GNU General Public License)',
-                'LGPL (Lesser GNU General Public License)',
-                'MIT License',
-                'MPL (Mozilla Public License 2.0)'
+                'Apache_License_2.0',
+                'BSD_2-clause_(FreeBSD License)',
+                'BSD_3-clause_(Revised License)',
+                'Common_Development_and_Distribution_License',
+                'Ecplise_Public_License_2.0',
+                'GPL_(GNU_General_Public_License)',
+                'LGPL_(Lesser_GNU_General_Public_License)',
+                'MIT_License',
+                'MPL_(Mozilla_Public_License_2.0)'
             ],
             name: 'license'
         },
