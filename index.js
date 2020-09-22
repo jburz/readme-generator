@@ -68,7 +68,7 @@ inquirer
     ])
     .then(function (response) {
         console.log(response);
-        writeToFile('readme.md', gm(response));
+        writeToFile('README.md', gm(response));
     });
     
 // function to write README file
