@@ -20,11 +20,6 @@ inquirer
         },
         {
             type: 'input',
-            message: 'What would you like for table of contents?',
-            name: 'tableOfContents'
-        },
-        {
-            type: 'input',
             message: 'Please write a brief description of how the user should install your app',
             name: 'installation'
         },
@@ -65,6 +60,11 @@ inquirer
             message: 'Enter your github username to link you github profile to the project: ',
             name: 'github'
         },
+        {
+            type: 'input',
+            message: 'Enter your email address to tell others how to reach you with additional questions: ',
+            name: 'email'
+        }
     ])
     .then(function (response) {
         console.log(response);

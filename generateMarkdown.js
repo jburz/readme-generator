@@ -13,7 +13,7 @@ ${data.description}
   * [License](#License)
   * [Contributing](#Contributing)
   * [Test](#Tests)
-  * [Github](#Github)
+  * [Questions](#Questions)
 
 
 ## Installation
@@ -36,8 +36,8 @@ ${data.contributing}
 ${data.tests}
 
 
-## Github
-${data.github}
+## Questions
+If you have any questions, feel free to find me on github [${data.github}](https://www.github.com/${data.github}) or send me an email at ${data.email}.
   `;
 }
 

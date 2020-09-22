@@ -1,6 +1,6 @@
-# 1   ![License Badge](https://img.shields.io/badge/License-Apache%202.0-blue)
+# readme-generator   ![License Badge](https://img.shields.io/badge/License-MIT-blue)
 ## Description  
-2
+takes input from a user and generates a professional looking readme with those inputs
 
 
 ## Table of Contents
@@ -10,29 +10,29 @@
   * [License](#License)
   * [Contributing](#Contributing)
   * [Test](#Tests)
-  * [Github](#Github)
+  * [Questions](#Questions)
 
 
 ## Installation
-4
+from github
 
 
 ## Usage
-5
+in the command line
 
 
 ## License
-This application is covered under the [Apache 2.0](https://www.opensource.org/licenses) license.
+This application is covered under the [MIT](https://www.opensource.org/licenses) license.
 
 
 ## Contributing
-6
+submit issues in the github repository
 
 
 ## Tests
-7
+nothing right now
 
 
-## Github
-8
+## Questions
+If you have any questions, feel free to find me on github [jburz](https://www.github.com/jburz) or send me an email at jake.bilbao.04.06@gmail.com.
   
