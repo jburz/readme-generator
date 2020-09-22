@@ -2,14 +2,29 @@
 function generateMarkdown(data) {
   const license = encodeURIComponent(data.license);
     return `# ${data.title}
-## ${data.description}
-## ${data.tableOfContents}
-## ${data.installation}
-## ${data.usage}
-## ![License Badge](https://img.shields.io/badge/License-${license}-blue)
-## ${data.contributing}
-## ${data.tests}
-## ${data.github}
+## Description
+${data.description}
+
+## Table of Contens
+${data.tableOfContents}
+
+## Installation
+${data.installation}
+
+## Usage
+${data.usage}
+
+## License
+![License Badge](https://img.shields.io/badge/License-${license}-blue)
+
+## Contributing
+${data.contributing}
+
+## Tests
+${data.tests}
+
+## Github
+${data.github}
   `;
 }
 
