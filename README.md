@@ -3,6 +3,13 @@
 This app will generate a readme.md file using input from the user.  Questions will be asked about the title, a brief description, how to install, usage of the app, licensing, how to contribute, testing and how to ask questions or present issues.
 <br>
 
+## Screenshots
+
+![All prompts showing functionality of app](./assets/allPrompts.png)
+![Showing list functionality](./assets/licenseList.png)
+![Finished readme sample](./assets/readmeSample.png)
+
+
 ## Table of Contents
   * [Description](#Description)
   * [Installation](#Installation)
