@@ -65,7 +65,8 @@ inquirer
         }
     ])
     .then(function (response) {
-        writeToFile('README.md', generateMarkdown(response));
+        //filename of generated readme, not readme for the app
+        writeToFile('outputREADME.md', generateMarkdown(response));
     });
     
 // function to write README file
